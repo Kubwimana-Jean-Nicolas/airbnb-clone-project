@@ -190,3 +190,20 @@ Strict input validation will be implemented to prevent injection attacks (like S
 
 Security is critical across all areas of this project—from user authentication to booking and payment handling—to ensure the platform is trustworthy, compliant, and resistant to threats.
 
+
+
+## 🔄 CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines automate the process of testing, building, and deploying code. They help ensure that code changes are automatically validated and safely delivered to production without manual intervention.
+
+Implementing a CI/CD pipeline is crucial for maintaining code quality, catching bugs early, speeding up the deployment process, and enabling collaborative development among team members.
+
+### 🧰 Tools Used
+- **GitHub Actions**: Automates workflows for testing and deploying code with every push or pull request.
+- **Docker**: Ensures consistent development and deployment environments by containerizing the application.
+- **PostgreSQL Service**: Used in the pipeline to run integration tests against the real database engine.
+- **Celery & Redis**: Integrated into the Docker setup for testing asynchronous tasks in the background.
+
+The CI/CD pipeline will help maintain a reliable and scalable development lifecycle for the Airbnb Clone project.
+
+
