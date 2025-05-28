@@ -165,3 +165,28 @@ Exposes application data via REST and GraphQL APIs, enabling flexible integratio
 
 ### ⚙️ Data Optimization
 Uses indexing and caching strategies to enhance performance and reduce load on the database. This ensures faster response times for frequently accessed data and a smoother user experience.
+
+## 🔐 API Security
+
+Ensuring the security of our API is essential for protecting user data, financial transactions, and maintaining trust in the platform. The following security measures will be implemented throughout the backend system:
+
+### 🔑 Authentication
+All API endpoints will require users to authenticate using secure methods such as JSON Web Tokens (JWT). This ensures that only verified users can access protected resources and perform actions like bookings or payments.
+
+### 🛡️ Authorization
+Role-based access control will be enforced, distinguishing between guests, hosts, and admins. This prevents unauthorized actions, such as a guest modifying another user’s property or booking.
+
+### 📈 Rate Limiting
+Rate limiting will be applied to prevent abuse of the API (e.g., brute-force login attempts or spamming endpoints). This helps protect system resources and ensures fair usage for all users.
+
+### 🔒 Secure Payment Handling
+Payment data will be handled via secure payment gateways, and sensitive transaction information will never be stored directly on our servers. This minimizes the risk of financial data breaches.
+
+### 📫 Data Encryption
+All communication between clients and the server will be encrypted using HTTPS (SSL/TLS), ensuring that user credentials and personal data are securely transmitted.
+
+### 🧪 Input Validation and Error Handling
+Strict input validation will be implemented to prevent injection attacks (like SQL or XSS). Errors will be handled gracefully to avoid leaking system information through responses.
+
+Security is critical across all areas of this project—from user authentication to booking and payment handling—to ensure the platform is trustworthy, compliant, and resistant to threats.
+
