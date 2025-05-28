@@ -37,3 +37,33 @@ The Airbnb Clone Project is a backend system that replicates core features of Ai
 ## 📂 Status
 
 Project setup initialized. Development in progress.
+
+
+## 👥 Team Roles
+
+The success of the Airbnb Clone backend relies on the collaboration of different roles, each with specialized responsibilities:
+
+### 🧑‍💻 Backend Developer
+- **Responsibilities**: 
+  - Implement API endpoints for users, properties, bookings, payments, and reviews.
+  - Write business logic and manage integrations like Celery, Redis, and GraphQL.
+  - Ensure security, scalability, and maintainability of the backend system.
+
+### 🗃️ Database Administrator (DBA)
+- **Responsibilities**:
+  - Design and maintain the PostgreSQL database schema.
+  - Implement indexing and database optimization for fast queries.
+  - Monitor data integrity, backups, and performance tuning.
+
+### ⚙️ DevOps Engineer
+- **Responsibilities**:
+  - Set up and manage CI/CD pipelines for automated testing and deployment.
+  - Containerize the backend using Docker.
+  - Monitor the application and ensure high availability in production.
+
+### 🧪 QA Engineer
+- **Responsibilities**:
+  - Write and execute test cases for API functionality.
+  - Perform integration and regression testing.
+  - Report bugs and ensure features meet quality standards before deployment.
+
