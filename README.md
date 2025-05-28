@@ -141,3 +141,27 @@ The Airbnb Clone backend requires a well-structured relational database. Below a
 - A review is **about one property**
 
 
+## 🧩 Feature Breakdown
+
+This project includes several key features that replicate the core functionality of the Airbnb platform:
+
+### 👤 User Management
+Allows users to register, log in, and manage their profiles securely. Authentication is handled to ensure data protection and personalized experiences for guests and hosts.
+
+### 🏠 Property Management
+Hosts can create, update, and delete property listings. This feature enables the display of detailed property information, making it easier for guests to browse available accommodations.
+
+### 📅 Booking System
+Enables users to book available properties for specific dates. It manages check-in and check-out information and ensures that date conflicts are avoided through validations.
+
+### 💳 Payment Processing
+Processes user payments related to bookings. It records transaction details securely and ensures the financial flow between guests and hosts is properly handled.
+
+### 📝 Review System
+Allows guests to leave feedback and ratings after their stay. This helps maintain trust and transparency within the platform, benefiting both guests and hosts.
+
+### 🚀 API Support (REST & GraphQL)
+Exposes application data via REST and GraphQL APIs, enabling flexible integration with frontends or mobile applications. This also ensures clean, scalable communication between systems.
+
+### ⚙️ Data Optimization
+Uses indexing and caching strategies to enhance performance and reduce load on the database. This ensures faster response times for frequently accessed data and a smoother user experience.
