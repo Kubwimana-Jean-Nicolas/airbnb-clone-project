@@ -1,25 +1,39 @@
-# airbnb-clone-project
-This is a clone of the AirBnB platform built for educational purposes. It allows users to list properties, make bookings, and manage listings.
+# Airbnb Clone Project
+
+## 🚀 Overview
+
+The Airbnb Clone Project is a backend system that replicates core features of Airbnb, focusing on user interactions, property listings, bookings, payments, and reviews. It is designed to be scalable, maintainable, and optimized for real-world performance.
 
 ## 🎯 Project Goals
 
-- Recreate core features of the AirBnB website
-- Practice backend and frontend development
-- Learn full-stack development with real-world use cases
+- **User Management**: Secure registration, authentication, and profile updates.
+- **Property Management**: CRUD operations for property listings.
+- **Booking System**: Booking creation, updates, and cancellations.
+- **Payment Processing**: Integration for secure payment handling.
+- **Review System**: User reviews and ratings for properties.
+- **Data Optimization**: Efficient storage and fast data retrieval.
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-- **Backend**: Django, Django REST Framework
-- **Frontend**: HTML, CSS, JavaScript (React in future phases)
-- **Database**: PostgreSQL
-- **Tools**: Git, GitHub, Docker, Postman
+- **Django**: Web framework for the backend
+- **Django REST Framework**: RESTful API development
+- **PostgreSQL**: Relational database for data storage
+- **GraphQL**: Flexible data querying
+- **Celery**: Task queue for asynchronous operations
+- **Redis**: Caching and session management
+- **Docker**: Containerization and deployment
+- **CI/CD**: Automated testing and deployment
 
-## 🚀 Getting Started
+## 📌 API Highlights
 
-1. Clone the repo
-2. Set up a virtual environment
-3. Run the server locally
+- **Users**: Register, authenticate, update, and delete
+- **Properties**: CRUD for property listings
+- **Bookings**: Manage property reservations
+- **Payments**: Handle payment processing
+- **Reviews**: Post and manage property reviews
 
-## 👤 Author
+---
 
--Kubwimana Jean NIcolas
+## 📂 Status
+
+Project setup initialized. Development in progress.
